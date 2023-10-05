@@ -15,13 +15,12 @@
 - g++ server.cpp -o server -lboost_system
 - ./server
 
-- g++ client.cpp -o client –lboost_system
+- g++ client.cpp -o client -lboost_system
 - ./client
 
 ## Build async
-- g++ async_server.cpp -o async_server –lboost_system
+- g++ async_server.cpp -o async_server -lboost_system
 - ./async_server
-- 
 ## Bind
 void print(int x, int y)
 {
